@@ -5,9 +5,181 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 51, 0.8);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.homeScreen {
+  padding: 50px;
+}
+
+.dayveCont {
+  color: aliceblue;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  background-color: rgba(0, 0, 51, 0.8);
+  min-height: 70vh;
+}
+
+.hire-1 {
+  background-color: #e600e6;
+  color: aliceblue;
+}
+.hire-2 {
+  background-color: #009933;
+  color: aliceblue;
+}
+
+button.hire-me:hover {
+  background-color: #d6d6c2;
+  color: black;
+}
+
+.dayve-typical {
+  font-family: Sofia, cursive, 'Courier New', Courier, monospace;
+}
+
+.dayve-note {
+  font-family: Akaya Kanadaka;
+  font-size: 20px;
+}
+
+.highlighted-text {
+  font-family: cursive;
+  font-size: 24px;
+}
+
+.dayve-pics {
+  background-size: cover;
+  border-radius: 30%;
+  box-shadow: 3px 3px 10px black;
+  padding: 10px;
+}
+
+.dayve-pics:hover {
+  transform: scale(1.07);
+  transition: 1s ease-out;
+}
+
+.particles {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.social {
+  transform: scale(1.07);
+  margin: 5px;
+}
+
+.social:hover {
+  transform: scale(1.07);
+}
+
+.social1 {
+  padding: 5px;
+  color: white;
+  background-color: skyblue;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  margin: 5px;
+  border-color: white;
+}
+.social2 {
+  padding: 5px;
+  color: black;
+  width: 40px;
+  height: 40px;
+  border-radius: 10%;
+  background-color: white;
+  /* border-radius: 50%; */
+  font-size: 30px;
+  margin: 5px;
+  border-color: white;
+}
+
+.social1:hover {
+  transform: scale(1.2);
+  transition: ease-out 1s;
+}
+.social2:hover {
+  transform: scale(1.2);
+  transition: ease-out 1s;
+}
+
+@media screen and (max-width: 576px) {
+  .dayveCont {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.decoo {
+  text-decoration: none;
+}
+
+.btn.decoo {
+  background-color: #f704f7;
+}
+
+.linked {
+  color: #f704f7;
+}
+/*My Jobs on homeScreen */
+.jobRow {
+  min-height: 70vh;
+  background-color: rgba(0, 0, 51, 0.8);
+  border-radius: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.line1 {
+  width: 100px;
+  height: 1px;
+  border: 2px white solid;
+}
+.line3 {
+  width: 100px;
+  height: 1px;
+  border: 2px white solid;
+}
+
+.line2 {
+  width: 25px;
+  height: 3px;
+  border: 5px #f704f7 solid;
+  border-radius: 3px;
+}
+
+.line2Container {
+  position: relative;
+  top: -2px;
+}
+
+.myJobs {
+  font-family: Akaya Kanadaka;
+}
+
+.myJobsCol2 {
+  font-family: Akaya Kanadaka;
+  font-size: 24px;
+}
+
+.headerContainer {
+  position: fixed;
+  top: 0%;
+  width: 100%;
+}
+
+.jobContainer {
+  padding-top: 50px;
+  min-height: 85vh;
 }
