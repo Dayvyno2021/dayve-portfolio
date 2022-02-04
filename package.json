@@ -8,8 +8,7 @@
     "start": "node backend/server.js",
     "client": "npm start --prefix frontend",
     "server": "nodemon backend/server.js",
-    "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_DEVELOPMENT=false npm install --prefix frontend && npm run build --frontend"
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "keywords": [],
   "author": "",
